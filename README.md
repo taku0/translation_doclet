@@ -1,11 +1,11 @@
 # translation_doclet
 
-Enables easy javadoc localization. A free (GPLed) alternative to l10ndoclet ( http://sourceforge.net/projects/l10ndoclet/ ).
+Enables easy Javadoc localization. A free (GPLed) alternative to l10ndoclet ( http://sourceforge.net/projects/l10ndoclet/ ).
 
 Features:
 
 - XML friendly: Generates well-formed XML (including markups in comments) file suitable for XSLT or other XML processing tools.
-- sed friendly: Removes irrevalent spaces from comments suitable for sed or other regexp processing tools.
+- sed friendly: Removes irreverent spaces from comments suitable for sed or other regexp processing tools.
 - OmegaT friendly: Generates a structured XML file as well as a plain HTML file, suitable for OmegaT or other computer assisted translation tools.
 
 This project provides two docklets and two optional XSLT files. ExtractDoclet extracts comment strings from source into structured XML files. InjectDoclet generates translated javadoc using standard doclet. to\_html.xsl and from\_html.xsl converts between structured XML files and plain HTML files.
